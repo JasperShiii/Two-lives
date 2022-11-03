@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/Scenes/Jiayu.unity
-=======
-- path: Assets/Scenes/Bingnan.unity
->>>>>>> origin/Bingnan-Dong
   isLoaded: 1
   isActive: 1
   isSubScene: 0
