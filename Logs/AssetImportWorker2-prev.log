@@ -1,0 +1,371 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.10f1 (1c7d0df0160b) revision 1867021'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'zh' Physical Memory: 32429 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\2021.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/unity/My project (9)
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+57604
+Successfully changed project path to: D:/unity/My project (9)
+D:/unity/My project (9)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 62.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path D:/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity/My project (9)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 Laptop GPU (ID=0x24dc)
+    Vendor:   NVIDIA
+    VRAM:     16202 MB
+    Driver:   31.0.15.1659
+Shader 'IL3DN/Terrain First-Pass': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Initialize mono
+Mono path[0] = 'D:/2021.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56504
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/2021.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/2021.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001105 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 66.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.489 seconds
+Domain Reload Profiling:
+	ReloadAssembly (490ms)
+		BeginReloadAssembly (46ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (369ms)
+			LoadAssemblies (46ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (80ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (232ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (45ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (66ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (85ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002160 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\unity\My project (9)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\unity\My project (9)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.938 seconds
+Domain Reload Profiling:
+	ReloadAssembly (939ms)
+		BeginReloadAssembly (213ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (139ms)
+		EndReloadAssembly (641ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (232ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (274ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'IL3DN/Terrain First-Pass': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3418 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (58.5 KB). Loaded Objects now: 3884.
+Memory consumption went from 130.1 MB to 130.0 MB.
+Total: 4.147500 ms (FindLiveObjects: 0.380300 ms CreateObjectMapping: 0.192800 ms MarkObjects: 3.422900 ms  DeleteObjects: 0.149900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 66915.667343 seconds.
+  path: Assets/Scenes/Jiayu.unity
+  artifactKey: Guid(dfbf1cb2e3daf314aad3010f36d3476a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Jiayu.unity using Guid(dfbf1cb2e3daf314aad3010f36d3476a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19776abbc8983c6a2fe2d8cb7e752e2') in 0.011160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.013177 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Clouds.prefab
+  artifactKey: Guid(c462ab8df416e3848b46d913d64a5114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Clouds.prefab using Guid(c462ab8df416e3848b46d913d64a5114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb494df60e5a0e0ab244ea276eb68d34') in 0.138284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_01_Dead.prefab
+  artifactKey: Guid(5e0264dcdb6475142a55bef72dfa33b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_01_Dead.prefab using Guid(5e0264dcdb6475142a55bef72dfa33b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed31c8b5fd0257952fa2d83628753241') in 0.150787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Plant_Grass_01.prefab
+  artifactKey: Guid(9a32147e38101fd48876749fd208348d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Plant_Grass_01.prefab using Guid(9a32147e38101fd48876749fd208348d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911abd286790e5c6b38d8918fd808d6f') in 0.143484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Rock_Boulder_02.prefab
+  artifactKey: Guid(a5b864fe7ab693b4ebbfb3e1502aac7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Rock_Boulder_02.prefab using Guid(a5b864fe7ab693b4ebbfb3e1502aac7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f283d5ad89cf8deac85cfbd3e4b976') in 0.149092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Shrub_Round_02_Dead_Card.prefab
+  artifactKey: Guid(bd2f1187480d8054b92da6df715b61cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Shrub_Round_02_Dead_Card.prefab using Guid(bd2f1187480d8054b92da6df715b61cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8207bdd9032aa3eafcc73f319695f57') in 0.168142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_01.prefab
+  artifactKey: Guid(ded7af70b9286904e824a86ca9a76e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_01.prefab using Guid(ded7af70b9286904e824a86ca9a76e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26dfd34f74322ae08d27ac7539ba3f0') in 0.141044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_02_Dead_Card.prefab
+  artifactKey: Guid(20a8659b46faabd4e9000085735cc089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_02_Dead_Card.prefab using Guid(20a8659b46faabd4e9000085735cc089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6b485b4c0f6b58667de305d38ee34f') in 0.034956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Plant_Flower_01.prefab
+  artifactKey: Guid(ab2c917d4ca684e46a7d6f1d7c10371c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Plant_Flower_01.prefab using Guid(ab2c917d4ca684e46a7d6f1d7c10371c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eebffa54a4f92d6d5a30e6aab8b9b5c') in 0.013227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_01_OneMesh.prefab
+  artifactKey: Guid(26f432483ffc21a4883cd03821155414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_01_OneMesh.prefab using Guid(26f432483ffc21a4883cd03821155414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf3338d3d18ca49134a97bfff667e97') in 0.017551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Shrub_Round_03_Dead_Card.prefab
+  artifactKey: Guid(3d615d08820e10c42a9d4e5ba7d8fb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Shrub_Round_03_Dead_Card.prefab using Guid(3d615d08820e10c42a9d4e5ba7d8fb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e607208ddfbdf767158c0de5cb3b63d5') in 0.034815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Plant_Grass_03.prefab
+  artifactKey: Guid(3ed64830e8f834546a4581c03d58911b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Plant_Grass_03.prefab using Guid(3ed64830e8f834546a4581c03d58911b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7567a3485bd16b2cd44cebbc0732066f') in 0.012907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_03_Card.prefab
+  artifactKey: Guid(8d28d650a13e0144ebf5166935bc2bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_03_Card.prefab using Guid(8d28d650a13e0144ebf5166935bc2bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece460da4b82b0084d4f1b372760fb3a') in 0.120126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_02_OneMesh.prefab
+  artifactKey: Guid(6f761512e790af341aa62e5ab7aa880e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_02_OneMesh.prefab using Guid(6f761512e790af341aa62e5ab7aa880e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a84d463d856460dd5858afa67fe69f6') in 0.014428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Plant_Grass_02.prefab
+  artifactKey: Guid(f82ec2f7ccf833540947ba343a46f303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Plant_Grass_02.prefab using Guid(f82ec2f7ccf833540947ba343a46f303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da9b403921eca8efcd31c5ee511d43f6') in 0.016352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_02_Dead.prefab
+  artifactKey: Guid(edbcc531802f732438d8e48163b160bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_02_Dead.prefab using Guid(edbcc531802f732438d8e48163b160bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a94c275077a790112e93bb257d5200') in 0.011267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Beech_01.prefab
+  artifactKey: Guid(b21038d4ed41ccc4c92fe781cced5ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Beech_01.prefab using Guid(b21038d4ed41ccc4c92fe781cced5ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f62fbf9af3ba9debae0ce43834e94ab') in 0.072224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.157648 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_03_Dead.prefab
+  artifactKey: Guid(5db86999543932843bddf25f7f2ef6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_03_Dead.prefab using Guid(5db86999543932843bddf25f7f2ef6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230f962853cf82512acc82915ba3f108') in 0.012341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_02_Dead.prefab
+  artifactKey: Guid(c2b12eefb0d661a4b82aca0a16332955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_02_Dead.prefab using Guid(c2b12eefb0d661a4b82aca0a16332955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd42cc051d14dd5206f6a706bd54cf6') in 0.013088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_03_Dead.prefab
+  artifactKey: Guid(020ef7e1303cbe74ca95c3625530e600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_03_Dead.prefab using Guid(020ef7e1303cbe74ca95c3625530e600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fadcd01f05447c7d059079a131b2f29c') in 0.011093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_03_Card.prefab
+  artifactKey: Guid(9c37100679af7f14eaeff9074ad26ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_03_Card.prefab using Guid(9c37100679af7f14eaeff9074ad26ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc194e6f27703fe9c1b381fced8334d0') in 0.038464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_01_OneMesh.prefab
+  artifactKey: Guid(de691dfc4f267f7428befc75c109cb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_01_OneMesh.prefab using Guid(de691dfc4f267f7428befc75c109cb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70de27ac08fb37ebe559d749510a4cf0') in 0.151607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_02.prefab
+  artifactKey: Guid(e18d5a2b5ddeb1d47bf52e683cce67ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_02.prefab using Guid(e18d5a2b5ddeb1d47bf52e683cce67ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80c3a7b4cae5d4b0c9bbb2e360ea4e3') in 0.013706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.267263 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_03_Dead_Card.prefab
+  artifactKey: Guid(7ae3ae1402e4c334db57a187cf7292ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_03_Dead_Card.prefab using Guid(7ae3ae1402e4c334db57a187cf7292ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed59b86fbe6a8b85232adb0f0845192') in 0.026879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.868145 seconds.
+  path: Assets/IL3DN/Graphics/Meshes/IL3DN_Dead_Branch_01.fbx
+  artifactKey: Guid(6b7263900e8bf084aa9f814a5467ba72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Meshes/IL3DN_Dead_Branch_01.fbx using Guid(6b7263900e8bf084aa9f814a5467ba72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe28a9a55ffec24562b376f7da19fb6') in 0.087032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/IL3DN/Graphics/Meshes/IL3DN_Shrub_Round_03.FBX
+  artifactKey: Guid(c625635febd64b3448bf2329a99f2166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Meshes/IL3DN_Shrub_Round_03.FBX using Guid(c625635febd64b3448bf2329a99f2166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571ab7ee60465b8e7b88910bb41226a9') in 0.201625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/IL3DN/Graphics/Meshes/IL3DN_Tree_Birch_01.FBX
+  artifactKey: Guid(ec5c3a3cbaa97734a94a71269e6d1828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Meshes/IL3DN_Tree_Birch_01.FBX using Guid(ec5c3a3cbaa97734a94a71269e6d1828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03cdba5ba514c95b9b977e4f685fc5ec') in 0.100858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/IL3DN/Graphics/Meshes/IL3DN_GroundPatch.FBX
+  artifactKey: Guid(0da06f2ff0ecf1041ab9326237b87a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Meshes/IL3DN_GroundPatch.FBX using Guid(0da06f2ff0ecf1041ab9326237b87a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a44e625d45070270811172bb333e8aab') in 0.108787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/IL3DN/Graphics/Meshes/IL3DN_Shrub_Round_01.FBX
+  artifactKey: Guid(45b1ff60b8ed1d54fad41a90939b505d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Meshes/IL3DN_Shrub_Round_01.FBX using Guid(45b1ff60b8ed1d54fad41a90939b505d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70344c8e5390dfda0a653cc05ede72f0') in 0.106162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/IL3DN/Graphics/Meshes/IL3DN_Tree_Pine_02.FBX
+  artifactKey: Guid(9823af768c1146b49a0c9e60a1bd597d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Meshes/IL3DN_Tree_Pine_02.FBX using Guid(9823af768c1146b49a0c9e60a1bd597d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3710232eb127aa878763635a0254e5ce') in 0.069082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/IL3DN/Graphics/Meshes/IL3DN_Plant_Flower_03.fbx
+  artifactKey: Guid(2b2aba6ec62443a42b2ff99c616b87bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Meshes/IL3DN_Plant_Flower_03.fbx using Guid(2b2aba6ec62443a42b2ff99c616b87bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c00ac4bfad2a740d71b675c40493d7') in 0.018586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/IL3DN/Graphics/Meshes/IL3DN_Plant_WaterLily_01.fbx
+  artifactKey: Guid(e2d4737e4e3ce21478b77902358fb224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Meshes/IL3DN_Plant_WaterLily_01.fbx using Guid(e2d4737e4e3ce21478b77902358fb224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45cb4f947425b4613120c135c9801c30') in 0.032849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/IL3DN/Graphics/Meshes/IL3DN_Tree_Pine_01.FBX
+  artifactKey: Guid(5483a0baf4177d14895cca1409abad45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Meshes/IL3DN_Tree_Pine_01.FBX using Guid(5483a0baf4177d14895cca1409abad45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046eaf63f2abab0d0900121e22036645') in 0.068119 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
