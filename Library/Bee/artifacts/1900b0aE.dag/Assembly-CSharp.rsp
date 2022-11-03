@@ -397,6 +397,13 @@
 "Assets/Jiayu's assets/MagicArsenal/Effects/Scripts/MagicBeamScript.cs"
 "Assets/Jiayu's assets/MagicArsenal/Effects/Scripts/MagicLightFade.cs"
 "Assets/Jiayu's assets/MagicArsenal/Effects/Scripts/MagicRotation.cs"
+"Assets/Mini First Person Controller/Scripts/Components/Crouch.cs"
+"Assets/Mini First Person Controller/Scripts/Components/FirstPersonAudio.cs"
+"Assets/Mini First Person Controller/Scripts/Components/GroundCheck.cs"
+"Assets/Mini First Person Controller/Scripts/Components/Jump.cs"
+"Assets/Mini First Person Controller/Scripts/Components/Zoom.cs"
+"Assets/Mini First Person Controller/Scripts/FirstPersonLook.cs"
+"Assets/Mini First Person Controller/Scripts/FirstPersonMovement.cs"
 "Assets/_DLNK/_DLNK Source/_DLNK Libraries/[dlnk Script Library]/Basic Scripts/Misc/CameraOrbit.cs"
 -langversion:9.0
 

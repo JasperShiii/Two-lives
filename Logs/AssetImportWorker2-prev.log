@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.10f1 (1c7d0df0160b) revision 1867021'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16126 MB
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'zh' Physical Memory: 32429 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.10f1\Editor\Unity.exe
+D:\2021.3.10f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker2
 -projectPath
-C:/Users/dongb/Documents/GitHub/Two-lives
+D:/unity/My project (9)
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-65396
-Successfully changed project path to: C:/Users/dongb/Documents/GitHub/Two-lives
-C:/Users/dongb/Documents/GitHub/Two-lives
+56460
+Successfully changed project path to: D:/unity/My project (9)
+D:/unity/My project (9)
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,105 +47,113 @@ C:/Users/dongb/Documents/GitHub/Two-lives
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 87.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 83.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/dongb/Documents/GitHub/Two-lives/Assets
+[Subsystems] Discovering subsystems at path D:/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity/My project (9)/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Renderer: NVIDIA GeForce RTX 3080 Laptop GPU (ID=0x24dc)
     Vendor:   NVIDIA
-    VRAM:     6023 MB
-    Driver:   30.0.15.1272
+    VRAM:     16202 MB
+    Driver:   31.0.15.1659
+Shader 'IL3DN/Terrain First-Pass': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
+Mono path[0] = 'D:/2021.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56292
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009831 seconds.
+Register platform support module: D:/2021.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/2021.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001947 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 84.99 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 84.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.669 seconds
+- Completed reload, in  0.515 seconds
 Domain Reload Profiling:
-	ReloadAssembly (669ms)
-		BeginReloadAssembly (89ms)
+	ReloadAssembly (516ms)
+		BeginReloadAssembly (48ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (452ms)
-			LoadAssemblies (85ms)
+		EndReloadAssembly (384ms)
+			LoadAssemblies (47ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (101ms)
+			SetupTypeCache (85ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (264ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (243ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (44ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (85ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (127ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
+				ProcessInitializeOnLoadAttributes (78ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006340 seconds.
+Registered in 0.002230 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\dongb\Documents\GitHub\Two-lives\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\dongb\Documents\GitHub\Two-lives\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\unity\My project (9)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\unity\My project (9)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.058 seconds
+- Completed reload, in  1.140 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1059ms)
-		BeginReloadAssembly (112ms)
+	ReloadAssembly (1140ms)
+		BeginReloadAssembly (219ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (808ms)
-			LoadAssemblies (97ms)
+			CreateAndSetChildDomain (136ms)
+		EndReloadAssembly (806ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (257ms)
+			SetupTypeCache (278ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (373ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (360ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (99ms)
-				ProcessInitializeOnLoadAttributes (235ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Shader 'IL3DN/Terrain First-Pass': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3589 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (1.3 MB). Loaded Objects now: 4047.
-Memory consumption went from 137.2 MB to 135.9 MB.
-Total: 3.016200 ms (FindLiveObjects: 0.275300 ms CreateObjectMapping: 0.086600 ms MarkObjects: 2.436200 ms  DeleteObjects: 0.216900 ms)
+Unloading 3616 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (1.3 MB). Loaded Objects now: 4093.
+Memory consumption went from 161.0 MB to 159.7 MB.
+Total: 2.884000 ms (FindLiveObjects: 0.350300 ms CreateObjectMapping: 0.123400 ms MarkObjects: 2.117400 ms  DeleteObjects: 0.291700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -160,73 +168,586 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 17376.572512 seconds.
-  path: Assets/_DLNK/Demon Girl/Source/Motion/Generic/Humanoid@CombatIdle.FBX
-  artifactKey: Guid(5c3ffc51b8db17b47824cf9c3e5652d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_DLNK/Demon Girl/Source/Motion/Generic/Humanoid@CombatIdle.FBX using Guid(5c3ffc51b8db17b47824cf9c3e5652d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066fae4bcd91cc6eb15a7792016f1f84') in 0.056224 seconds 
+  Time since last request: 153208.036932 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Porc.mat
+  artifactKey: Guid(c4633b4bc8d4dbb41bc32118f1812b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Porc.mat using Guid(c4633b4bc8d4dbb41bc32118f1812b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e79c26de25238c618217903d3d07fe') in 0.190220 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.006605 seconds.
-  path: Assets/_DLNK/Demon Girl/Source/Motion/demonGirl@cover00.FBX
-  artifactKey: Guid(68b571df3e7162049aeb4c147d1c6d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_DLNK/Demon Girl/Source/Motion/demonGirl@cover00.FBX using Guid(68b571df3e7162049aeb4c147d1c6d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de039309209374dc35a538abc05e3c7') in 0.011429 seconds 
+  Time since last request: 0.000078 seconds.
+  path: Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Projectiles/Arcane/ArcaneLines.mat
+  artifactKey: Guid(c63d8954b4144d04c98219ec9f0e9fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Projectiles/Arcane/ArcaneLines.mat using Guid(c63d8954b4144d04c98219ec9f0e9fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e72cb38cd22cec7ae46b54a60dda2f4') in 0.017714 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.339769 seconds.
-  path: Assets/_DLNK/Demon Girl/Source/Motion/demonGirl@idle00.FBX
-  artifactKey: Guid(30b13a2ae0eb2094d8fe3ef9818f15b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_DLNK/Demon Girl/Source/Motion/demonGirl@idle00.FBX using Guid(30b13a2ae0eb2094d8fe3ef9818f15b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4673b50012bda8effd4ed5980684de49') in 0.012583 seconds 
+  Time since last request: 0.000031 seconds.
+  path: Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Multi-Purpose/Aura01.mat
+  artifactKey: Guid(7af85c482ccb8044b95074f3fb145d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Multi-Purpose/Aura01.mat using Guid(7af85c482ccb8044b95074f3fb145d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8b18e719378ce850aafd150a354661') in 0.022975 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/_DLNK/Demon Girl/Source/Motion/Generic/Humanoid@IdletoCombat.FBX
-  artifactKey: Guid(09bbecea19478d64cb8650c25bed0e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_DLNK/Demon Girl/Source/Motion/Generic/Humanoid@IdletoCombat.FBX using Guid(09bbecea19478d64cb8650c25bed0e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92e35001e0da311d53fbaa9fdd148d5e') in 0.016337 seconds 
+  Time since last request: 0.000058 seconds.
+  path: Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Projectiles/Arcane/ArcaneTwirl.mat
+  artifactKey: Guid(e661e014d002b6548a83c8703560068d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Projectiles/Arcane/ArcaneTwirl.mat using Guid(e661e014d002b6548a83c8703560068d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f683511854f36ddef0f76da86a16913') in 0.021562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Wood 02.mat
+  artifactKey: Guid(26f1b36be16f30d409f9ab1a7d20a8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Wood 02.mat using Guid(26f1b36be16f30d409f9ab1a7d20a8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9f543608e08b2ffcbd690329eaffdc') in 0.034133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Plastic_01.mat
+  artifactKey: Guid(255352a35d6d72c4e8ee50bc826f7495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Plastic_01.mat using Guid(255352a35d6d72c4e8ee50bc826f7495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a0c8b4bef13fa815ba162717f8a623') in 0.037720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Multi-Purpose/Aura05.mat
+  artifactKey: Guid(41b1ecad8ea7c2a49bdf88edf74979b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Multi-Purpose/Aura05.mat using Guid(41b1ecad8ea7c2a49bdf88edf74979b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894ae63a2342f5bbc316f9a98fb17559') in 0.019954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Brushed Metal_Antique.mat
+  artifactKey: Guid(5f469581b50505747a410deecdf8f11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Brushed Metal_Antique.mat using Guid(5f469581b50505747a410deecdf8f11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd445e470741526082648c85479b54c7') in 0.015924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/CastIron_01.mat
+  artifactKey: Guid(27f834cdb4589be48903c1e529e09c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/CastIron_01.mat using Guid(27f834cdb4589be48903c1e529e09c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0e19b092c1ee66e3ac342f973b8cf8') in 0.025117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Multi-Purpose/Aura08.mat
+  artifactKey: Guid(09209a21016093749ad60975ff898160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Multi-Purpose/Aura08.mat using Guid(09209a21016093749ad60975ff898160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412c253dce13a495a6e73600146cea30') in 0.040177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Pre-Colored Rings/AuraLightning.mat
+  artifactKey: Guid(49d69f9fc5784d5439eb733341dd9e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Pre-Colored Rings/AuraLightning.mat using Guid(49d69f9fc5784d5439eb733341dd9e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba6146a1f76dbc7a8124129ee4ed526') in 0.022301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/BR_Tile_01.mat
+  artifactKey: Guid(aae18af11f5af9d43bb55831bba0ae8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/BR_Tile_01.mat using Guid(aae18af11f5af9d43bb55831bba0ae8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '907684e56244880f923fd9b2cf1e14d0') in 0.021312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/BR_Tile_01_Mod.mat
+  artifactKey: Guid(99811246d7017024d85cfa934a83345b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/BR_Tile_01_Mod.mat using Guid(99811246d7017024d85cfa934a83345b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9335eae4db0094c7872c5ed1b478b96c') in 0.022711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_BPS Basic Assets/Common/Materials/Legacy/Building Floor Tile.mat
+  artifactKey: Guid(b65d6f1427086d84f91a3153f6f82ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_BPS Basic Assets/Common/Materials/Legacy/Building Floor Tile.mat using Guid(b65d6f1427086d84f91a3153f6f82ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b9f39413a0541345d655809a2a36f4') in 0.026081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Brushed Metal_Chrome.mat
+  artifactKey: Guid(4580dd49916b3c542b97109c8ca425f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Brushed Metal_Chrome.mat using Guid(4580dd49916b3c542b97109c8ca425f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0934931046c08a1061294fdc5ec342c9') in 0.012479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Wood 03.mat
+  artifactKey: Guid(a64c40f22fb83f041b7c584055b61c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Wood 03.mat using Guid(a64c40f22fb83f041b7c584055b61c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4bd7c43bcce7e08e873ee9fdb4d1f84') in 0.014677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Projectiles/Arcane/ArcaneGlow.mat
+  artifactKey: Guid(1ae55ae61d1144248b1cbd80a738177c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Projectiles/Arcane/ArcaneGlow.mat using Guid(1ae55ae61d1144248b1cbd80a738177c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd1b79e314f0b7d6dafcd32aee055c0') in 0.015126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Jiayu's assets/MagicArsenal/Effects/Icons/Materials/Arcane.mat
+  artifactKey: Guid(10b455210db723848a196212d012e361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/MagicArsenal/Effects/Icons/Materials/Arcane.mat using Guid(10b455210db723848a196212d012e361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51da2d087dcd926f0b166f468a7adb3b') in 0.016409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Multi-Purpose/Aura07.mat
+  artifactKey: Guid(41a972c72e0dd334b8924114e2ca3a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Multi-Purpose/Aura07.mat using Guid(41a972c72e0dd334b8924114e2ca3a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d51c31d6d41db00f6a17b6ca8d82718') in 0.017948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Knob and Key.mat
+  artifactKey: Guid(50dd338fb2540fa4aa15639a529736ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Knob and Key.mat using Guid(50dd338fb2540fa4aa15639a529736ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d8262417e4ca7d24a0b35131181bb9') in 0.016435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Concrete_01.mat
+  artifactKey: Guid(1e98ebe0ed4d9894d9610d836de5f478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Concrete_01.mat using Guid(1e98ebe0ed4d9894d9610d836de5f478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2725228501292735d6593f1e7dc51f3d') in 0.019725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.070678 seconds.
+  path: Assets/Jiayu's assets/MagicArsenal/Effects/Materials/cleave_frost.mat
+  artifactKey: Guid(96723158895624c4785f6ee445bb715e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/MagicArsenal/Effects/Materials/cleave_frost.mat using Guid(96723158895624c4785f6ee445bb715e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713bfdd578cba409e51c8970a5253be5') in 0.026743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Modular/dust04.mat
+  artifactKey: Guid(8e5295baa0cbbcf42a11252b85514c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Modular/dust04.mat using Guid(8e5295baa0cbbcf42a11252b85514c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd907b42291fb151bcf45426b61a74328') in 0.018042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Modular/dust03.mat
+  artifactKey: Guid(7917d5351d1131d4590001e87b5823eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Modular/dust03.mat using Guid(7917d5351d1131d4590001e87b5823eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62146c9309af4e4fffc39e589f37343') in 0.020133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Jiayu's assets/MagicArsenal/Effects/Icons/Materials/Earth.mat
+  artifactKey: Guid(dae8957b5ca414540b4836022cf6084b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/MagicArsenal/Effects/Icons/Materials/Earth.mat using Guid(dae8957b5ca414540b4836022cf6084b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa6dc1b04a7079ad0a31e6e7d7705a1') in 0.019307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Ebony Wood.mat
+  artifactKey: Guid(5af27c19293d0ff4cb00b35cc2189634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Ebony Wood.mat using Guid(5af27c19293d0ff4cb00b35cc2189634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce77176bed4bffa9766155f2bfd7dbb') in 0.018959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Modular/cloudspatter.mat
+  artifactKey: Guid(5f4573b421955944caa8bad820d3fccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Modular/cloudspatter.mat using Guid(5f4573b421955944caa8bad820d3fccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43ee0f31ee4d7ae46005bb626d29ff1') in 0.021097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Misc/ControlPanel.mat
+  artifactKey: Guid(bf99784c0118e114c80ad5c8ca2a5b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Misc/ControlPanel.mat using Guid(bf99784c0118e114c80ad5c8ca2a5b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180161a446ee57244ef7138440359a96') in 0.014964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Projectiles/Trails/earthtrail.mat
+  artifactKey: Guid(94f1cdd6a9a370c40909236b78dd19ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Projectiles/Trails/earthtrail.mat using Guid(94f1cdd6a9a370c40909236b78dd19ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff95a1951ce35084ce181e37a2d7fcec') in 0.026725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Modular/drop02.mat
+  artifactKey: Guid(7ca28a47e1dabbb4f9a5b28a6a3b82af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Modular/drop02.mat using Guid(7ca28a47e1dabbb4f9a5b28a6a3b82af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51077a06a5fb89fcab867c8f11ee6829') in 0.015901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Projectiles/Earth/EarthPebble.mat
+  artifactKey: Guid(d183c827bc2abaf49a3ea3e1aa649308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Projectiles/Earth/EarthPebble.mat using Guid(d183c827bc2abaf49a3ea3e1aa649308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e646aa25731474b459abeb3e57df18f') in 0.025940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_DLNK/Demon Girl/Source/Materials/DG_Weapon.mat
+  artifactKey: Guid(0ceccff46c561e249bec08a46bae18ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/Demon Girl/Source/Materials/DG_Weapon.mat using Guid(0ceccff46c561e249bec08a46bae18ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647fd10c90bd96b324da1706eb024fe1') in 0.021485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Modular/drop_offcenter.mat
+  artifactKey: Guid(c21f988412e0bbd458fc1e2c98d61b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Modular/drop_offcenter.mat using Guid(c21f988412e0bbd458fc1e2c98d61b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be52df959aef803ef3c880d41bca1075') in 0.019013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_BPS Basic Assets/Common/Materials/Fire/Fire_Add_01.mat
+  artifactKey: Guid(4791bf36c2e577a4a9e789b580579636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_BPS Basic Assets/Common/Materials/Fire/Fire_Add_01.mat using Guid(4791bf36c2e577a4a9e789b580579636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a8519df7d553865c1bc9322427b65b5') in 0.012929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Jiayu's assets/MagicArsenal/Effects/Icons/Materials/Frost.mat
+  artifactKey: Guid(064f47f883c107c42be538404a57bafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/MagicArsenal/Effects/Icons/Materials/Frost.mat using Guid(064f47f883c107c42be538404a57bafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16bdc061fe9a778b865a34552608b561') in 0.018091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_BPS Basic Assets/Common/Materials/Fire/Fire_Add_02.mat
+  artifactKey: Guid(0fdd751cd86106446afa0dc09e0eeb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_BPS Basic Assets/Common/Materials/Fire/Fire_Add_02.mat using Guid(0fdd751cd86106446afa0dc09e0eeb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28271913ea46786e6c1ab454e19542a8') in 0.012675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Projectiles/Fire/FireRing.mat
+  artifactKey: Guid(7c707bedfbf7942459e20471e6f8d740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Projectiles/Fire/FireRing.mat using Guid(7c707bedfbf7942459e20471e6f8d740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef47637d9c03d5d19f77db0b264b3ac') in 0.017696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Projectiles/Frost/FrostSpikeBig.mat
+  artifactKey: Guid(9eb5efd2e9d93c347a114913be54c4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Projectiles/Frost/FrostSpikeBig.mat using Guid(9eb5efd2e9d93c347a114913be54c4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ee97ef5efc74237f8c1afd7a45b858') in 0.017763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Jiayu's assets/MagicArsenal/Effects/Icons/Materials/Fire.mat
+  artifactKey: Guid(beb7b4e7c4576044f839cf02578c0e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/MagicArsenal/Effects/Icons/Materials/Fire.mat using Guid(beb7b4e7c4576044f839cf02578c0e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf60511081ce22e222c25c9b3d595df') in 0.017325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Projectiles/Fire/FireOrb.mat
+  artifactKey: Guid(5ebadb3a85da1d54297d8a21786bec58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Projectiles/Fire/FireOrb.mat using Guid(5ebadb3a85da1d54297d8a21786bec58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '695fc07efa7d5547e972892366b6c874') in 0.015423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Projectiles/Earth/EarthBigRock.mat
+  artifactKey: Guid(dc69114f5b7a114408e994a55b857330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Projectiles/Earth/EarthBigRock.mat using Guid(dc69114f5b7a114408e994a55b857330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2486dc5b51eb2c0fce8ba94901cf26') in 0.016164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.480888 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Misc/GameConsole_01.mat
+  artifactKey: Guid(cd2528b4c58decf4fa93cbcfc4c870ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Misc/GameConsole_01.mat using Guid(cd2528b4c58decf4fa93cbcfc4c870ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f78567a0ab8c1a2fd4bf5f98a2d4a908') in 0.015345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Modular/glowdark01.mat
+  artifactKey: Guid(d74628891d87c2643af6ad03f4903c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Modular/glowdark01.mat using Guid(d74628891d87c2643af6ad03f4903c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed75c3b7f66129a28de7811f60efae6') in 0.018805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Jiayu's assets/MagicArsenal/Effects/Materials/GroundLife.mat
+  artifactKey: Guid(65e670328bbdabd4a8d8234995dc0e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/MagicArsenal/Effects/Materials/GroundLife.mat using Guid(65e670328bbdabd4a8d8234995dc0e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2426622fb5de221e0a4a4329a3023244') in 0.017573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Jiayu's assets/MagicArsenal/Effects/Materials/GroundLight01.mat
+  artifactKey: Guid(a9da3fe4943c9434385db152bf635fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/MagicArsenal/Effects/Materials/GroundLight01.mat using Guid(a9da3fe4943c9434385db152bf635fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '310dc700d05d8ca367b3efd30d7749f6') in 0.017115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Modular/glow01.mat
+  artifactKey: Guid(01e0386bc3c5b2f45b5b2735939daa3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Modular/glow01.mat using Guid(01e0386bc3c5b2f45b5b2735939daa3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc678706f4a218184d49e69de7dc3e6e') in 0.016492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Jiayu's assets/IL3DN/Graphics/Materials/IL3DN_Ground_Dead.mat
+  artifactKey: Guid(098fefc7ca6dc3048baacf21ed822e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/IL3DN/Graphics/Materials/IL3DN_Ground_Dead.mat using Guid(098fefc7ca6dc3048baacf21ed822e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68678e2bb4e8f79f6f6476e001509e08') in 0.021193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Jiayu's assets/MagicArsenal/Effects/Materials/GroundWater.mat
+  artifactKey: Guid(0fe9fa4d3f4c60346aa7cabf4b2b1ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/MagicArsenal/Effects/Materials/GroundWater.mat using Guid(0fe9fa4d3f4c60346aa7cabf4b2b1ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf3ccfd41fa0d27dc30247707d81583') in 0.018274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Free_Rocks/_material/ground.mat
+  artifactKey: Guid(d67cf08569282495b9b0b750a0366fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Rocks/_material/ground.mat using Guid(d67cf08569282495b9b0b750a0366fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a4891d490e12d793fee6ec38caa72eb') in 0.020413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Materials/ground_for demo.mat
+  artifactKey: Guid(d584889588f2b6840a6b076aa0a1d663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Materials/ground_for demo.mat using Guid(d584889588f2b6840a6b076aa0a1d663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8c1fa76833fb5ff525693a7fa590d5') in 0.015041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Jiayu's assets/MagicArsenal/Effects/Materials/GroundArcane.mat
+  artifactKey: Guid(477185c24aaadbf49804b8bcc55f5a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/MagicArsenal/Effects/Materials/GroundArcane.mat using Guid(477185c24aaadbf49804b8bcc55f5a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6f268a93bca1acd6e977e621f0077c') in 0.016772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Modular/glow02.mat
+  artifactKey: Guid(d6dfc4049a7a0b7418ed569fe074cde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Modular/glow02.mat using Guid(d6dfc4049a7a0b7418ed569fe074cde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d372192baaf13980f8051f80e8b0e9a') in 0.019156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Modular/glowringbright.mat
+  artifactKey: Guid(7613a1f6939c9f4428761a2047b742a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Modular/glowringbright.mat using Guid(7613a1f6939c9f4428761a2047b742a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea079b747d60298a07021dc9ad46d843') in 0.014013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Modular/glowsprinkles.mat
+  artifactKey: Guid(8b7e19552fbe4744899f09ec30cac1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Modular/glowsprinkles.mat using Guid(8b7e19552fbe4744899f09ec30cac1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e4fd5c65e13f74fe3751cef18cd4c6') in 0.016604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_BPS Basic Assets/Common/Materials/Legacy/Gold.mat
+  artifactKey: Guid(e767d86cbf3099a478162f1692b1edf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_BPS Basic Assets/Common/Materials/Legacy/Gold.mat using Guid(e767d86cbf3099a478162f1692b1edf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa66afca169ca21e140bde4f8af9305e') in 0.013293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.383149 seconds.
+  path: Assets/Jiayu's assets/IL3DN/Graphics/Materials/IL3DN_Ground_Dirt.mat
+  artifactKey: Guid(5ef09237db9c2fb45b2d476d701bd6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/IL3DN/Graphics/Materials/IL3DN_Ground_Dirt.mat using Guid(5ef09237db9c2fb45b2d476d701bd6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae585cbd31872c5b37edce440e0a4bb') in 0.031271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Jiayu's assets/IL3DN/Graphics/Materials/IL3DN_Shrub_Round_Bark.mat
+  artifactKey: Guid(d196cda956361f54cb094f4acad1b233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/IL3DN/Graphics/Materials/IL3DN_Shrub_Round_Bark.mat using Guid(d196cda956361f54cb094f4acad1b233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000673e586fd377ef2f8b0be414df2cf') in 0.032754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Jiayu's assets/IL3DN/Graphics/Materials/IL3DN_Plant_Grass_02.mat
+  artifactKey: Guid(b599d9a28d2afd24ab0a53fd5a5ce3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/IL3DN/Graphics/Materials/IL3DN_Plant_Grass_02.mat using Guid(b599d9a28d2afd24ab0a53fd5a5ce3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5042d2f4f4aeb8520f10d8d3fa2e233c') in 0.059679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Jiayu's assets/IL3DN/Graphics/Materials/IL3DN_Plant_Grass_03.mat
+  artifactKey: Guid(a1caf223de02ae34384ec42b6f035826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/IL3DN/Graphics/Materials/IL3DN_Plant_Grass_03.mat using Guid(a1caf223de02ae34384ec42b6f035826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcbb8a01d3d62cbda521f03ae0df8d67') in 0.011089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Jiayu's assets/IL3DN/Graphics/Materials/IL3DN_Shrub_Round_Card.mat
+  artifactKey: Guid(3f6920b977ea6b848babb0ed7abe4896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/IL3DN/Graphics/Materials/IL3DN_Shrub_Round_Card.mat using Guid(3f6920b977ea6b848babb0ed7abe4896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2304a63a9f098d766dc53f67795421e0') in 0.152298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.779841 seconds.
+  path: Assets/Jiayu's assets/IL3DN/Graphics/Materials/IL3DN_Sky.mat
+  artifactKey: Guid(05ff0682d2ac2374881c429c4b53ba1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/IL3DN/Graphics/Materials/IL3DN_Sky.mat using Guid(05ff0682d2ac2374881c429c4b53ba1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc63146131df7637749982a9ee81133') in 0.024760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Jiayu's assets/IL3DN/Graphics/Materials/IL3DN_Tree_Pine_Bark.mat
+  artifactKey: Guid(1d97d3e66d3177240ae59310c2388d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/IL3DN/Graphics/Materials/IL3DN_Tree_Pine_Bark.mat using Guid(1d97d3e66d3177240ae59310c2388d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7089f558949454cba437f9db0e836168') in 0.025672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_BPS Basic Assets/Common/Materials/Basic Assets/Int_BS_02.mat
+  artifactKey: Guid(1f972757765558b46aa948a406f8542a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_BPS Basic Assets/Common/Materials/Basic Assets/Int_BS_02.mat using Guid(1f972757765558b46aa948a406f8542a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027102230b34a6e90b8537f069c1ff7a') in 0.019495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Jiayu's assets/20 Ground Material Sets MAN MADE/INDOOR/Indoor 05 PBS.mat
+  artifactKey: Guid(ed833971f82fee142a77a1f1027e5fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/20 Ground Material Sets MAN MADE/INDOOR/Indoor 05 PBS.mat using Guid(ed833971f82fee142a77a1f1027e5fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3200096b75c898c31289b92810eeae88') in 0.030854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_BPS Basic Assets/Common/Materials/Basic Assets/Int_BS_01.mat
+  artifactKey: Guid(f03383d98b6709647991c50d409cf0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_BPS Basic Assets/Common/Materials/Basic Assets/Int_BS_01.mat using Guid(f03383d98b6709647991c50d409cf0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be6847959cb8678aaf2e76be6264b58') in 0.020679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Jiayu's assets/IL3DN/Graphics/Materials/IL3DN_Tree_Beech_Bark.mat
+  artifactKey: Guid(2bfd4dd55d933b248ac7013ae3db1bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/IL3DN/Graphics/Materials/IL3DN_Tree_Beech_Bark.mat using Guid(2bfd4dd55d933b248ac7013ae3db1bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd11f3d87ebf789114c6994388952b7b5') in 0.015437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Interior Exterior/Int_Apt_01.mat
+  artifactKey: Guid(e5edd18648b6fe340941b7f67c9a2996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Interior Exterior/Int_Apt_01.mat using Guid(e5edd18648b6fe340941b7f67c9a2996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf873324d0250f4b71c8f21d56d8311e') in 0.026640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Jiayu's assets/IL3DN/Graphics/Materials/IL3DN_Tree_Birch_Leaf.mat
+  artifactKey: Guid(253f3ec48ed0f8142aa3ee67cbe347eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/IL3DN/Graphics/Materials/IL3DN_Tree_Birch_Leaf.mat using Guid(253f3ec48ed0f8142aa3ee67cbe347eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de274f0b2ae40cac6d5926f8e46c216a') in 0.055774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_BPS Basic Assets/Common/Materials/Restroom/Int_RR_01.mat
+  artifactKey: Guid(b61458ebb19004843af57f63626d7f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_BPS Basic Assets/Common/Materials/Restroom/Int_RR_01.mat using Guid(b61458ebb19004843af57f63626d7f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22cabff106d7c9a7ef25f656d0391176') in 0.022254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Misc/Int_Apt_MarbleWall_01.mat
+  artifactKey: Guid(14caf24636c53854ea2f3f8ca2dd0fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Misc/Int_Apt_MarbleWall_01.mat using Guid(14caf24636c53854ea2f3f8ca2dd0fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388448602bb72e7c54c48c68d2fd07f4') in 0.021725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.938631 seconds.
+  path: Assets/Jiayu's assets/[Akishaqs] Kira/Model/Materials/KiraMat.mat
+  artifactKey: Guid(893f7eb14dd8f7f4c9205f95a4a0516d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/[Akishaqs] Kira/Model/Materials/KiraMat.mat using Guid(893f7eb14dd8f7f4c9205f95a4a0516d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1961c330060fb353764c9108bdf3e8b0') in 0.018542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Misc/Lamp 02 Standing.mat
+  artifactKey: Guid(fe8413b8ec60cb04f81b8c9b23e233f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Misc/Lamp 02 Standing.mat using Guid(fe8413b8ec60cb04f81b8c9b23e233f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2606eb50beafcf5fed85ae1a9c1509e2') in 0.022473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Misc/Lamp 02 Table.mat
+  artifactKey: Guid(ef49c0bd94883b4498c46a5c772544b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Misc/Lamp 02 Table.mat using Guid(ef49c0bd94883b4498c46a5c772544b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912c73c4af15f63c8370a544dfcb9563') in 0.017506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/LampShadeFabric_On.mat
+  artifactKey: Guid(625ca8b0c9507cd4d8685b336560db6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/LampShadeFabric_On.mat using Guid(625ca8b0c9507cd4d8685b336560db6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ba120b89d4475e5542f9df2db7db1a') in 0.017527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a15994343e8177118682fec250f58f5') in 0.057319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.355136 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9583506098fed4bbb70dbc56a092d1ae') in 0.018804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Modular/light.mat
+  artifactKey: Guid(3f56fe6254691644a91a5932402f54aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Modular/light.mat using Guid(3f56fe6254691644a91a5932402f54aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329a935eb024980ae16944233bce12f9') in 0.020182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Projectiles/Life/LifeDrop.mat
+  artifactKey: Guid(f5664de3426bb2847988b8cc25d0d76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Projectiles/Life/LifeDrop.mat using Guid(f5664de3426bb2847988b8cc25d0d76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b686ce2ce040838434a8377b7725a4') in 0.020015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Projectiles/Life/LifeDrop2.mat
+  artifactKey: Guid(6a2a2544904540e448bebddb8f5afb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiayu's assets/MagicArsenal/Effects/Materials/Projectiles/Life/LifeDrop2.mat using Guid(6a2a2544904540e448bebddb8f5afb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17bfaa355b412ec61c41af3c1c45e82') in 0.018850 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006567 seconds.
+Registered in 0.002539 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\dongb\Documents\GitHub\Two-lives\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\dongb\Documents\GitHub\Two-lives\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\unity\My project (9)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\unity\My project (9)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.036 seconds
+- Completed reload, in  0.751 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1037ms)
-		BeginReloadAssembly (145ms)
+	ReloadAssembly (751ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (581ms)
+			LoadAssemblies (51ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (206ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (260ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (166ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Shader 'IL3DN/Terrain First-Pass': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Refreshing native plugins compatible for Editor in 2.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3552 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (1.2 MB). Loaded Objects now: 4143.
+Memory consumption went from 159.7 MB to 158.5 MB.
+Total: 3.090200 ms (FindLiveObjects: 0.318300 ms CreateObjectMapping: 0.130000 ms MarkObjects: 2.428000 ms  DeleteObjects: 0.212900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002194 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\unity\My project (9)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\unity\My project (9)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.768 seconds
+Domain Reload Profiling:
+	ReloadAssembly (769ms)
+		BeginReloadAssembly (96ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (771ms)
-			LoadAssemblies (103ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (598ms)
+			LoadAssemblies (51ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (274ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (327ms)
+			SetupTypeCache (190ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (292ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (200ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (193ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.77 ms, found 3 plugins.
+Shader 'IL3DN/Terrain First-Pass': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3540 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (1.2 MB). Loaded Objects now: 4051.
-Memory consumption went from 132.6 MB to 131.3 MB.
-Total: 3.246800 ms (FindLiveObjects: 0.281800 ms CreateObjectMapping: 0.101200 ms MarkObjects: 2.606900 ms  DeleteObjects: 0.255300 ms)
+Unloading 3552 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (1.2 MB). Loaded Objects now: 4146.
+Memory consumption went from 159.7 MB to 158.5 MB.
+Total: 2.759000 ms (FindLiveObjects: 0.289500 ms CreateObjectMapping: 0.107200 ms MarkObjects: 2.127600 ms  DeleteObjects: 0.233400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -239,7 +760,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+========================================================================
+Received Import Request.
+  Time since last request: 160.302293 seconds.
+  path: Assets/Scenes/Bingnan.unity
+  artifactKey: Guid(7a78dda11272a0549b457084de3ed7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Bingnan.unity using Guid(7a78dda11272a0549b457084de3ed7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e18c9b91653d673233b2a6588b277d') in 0.011288 seconds 
